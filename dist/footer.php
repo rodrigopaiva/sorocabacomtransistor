@@ -1,1 +1,1 @@
-<footer class="ft-primary relative">footer primary <?php include "_inc/maps.php" ?> </footer> <?php include "_inc/analytics.php" ?>  <?php //wp_footer(); ?>
+<footer class="ft-primary relative">footer primary</footer> <?php include "_inc/analytics.php" ?>

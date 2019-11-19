@@ -7,19 +7,14 @@
 
 # TEAM
 
-    Design   : Juan Ropero
-	Contact  : contato [at] rubrostudio.com.br
-	LinkedIn : http://br.linkedin.com/in/juanropero
-	Location : Recife, Pernambuco, Brazil
-
     Frontend: Rodrigo Felipe
-	Contact:  contato [at] rubrostudio.com.br
+	Contact:  rodrigofpaiva [at] gmail.com
 	LinkedIn: http://br.linkedin.com/in/rodrigofelipe
 	Location: Recife, Pernambuco, Brazil
 
 # THANKS
 
-    Project by Rubro Studio - rubrostudio.com.br
+    Project by Rodrigo Felipe - rodrigofelipe.com.br
 
 # ABOUT PROJECT
 

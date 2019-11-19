@@ -1,4 +1,4 @@
-# Template by Rubro Studio
+# Template by Rodrigo Felipe
 
 Configurando ambiente
 ----------

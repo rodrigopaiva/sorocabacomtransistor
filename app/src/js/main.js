@@ -38,17 +38,6 @@ $(document).ready(function() {
         });
 
 
-    // ativo nos links das telas
-        var tela = $('body').attr('id');
-
-        if (tela == 'galeria-interna') {
-            tela = 'galeria';
-        }
-
-        // marca o link
-        $('.nav-primary .list-auto, .nav-for-mobile ul').find("a[rel='" + tela + "']").addClass('menu-active');
-
-
   // carousel bxSlider
         /* slider banner */
         if ($('.bxslider-banner').length > 0) {
@@ -69,11 +58,6 @@ $(document).ready(function() {
             */
         }
 
-
-    // lightbox
-        $("[data-fancybox]").fancybox({
-            // Options will go here
-        });
 
 
   // carousel bxSlider
@@ -146,7 +130,6 @@ $(document).ready(function() {
                 $.ajax({
                      type: "POST",
                      url: "email-contato.php", /* endereço do phpmailer */
-                     //url: "http://www.projeto.com.br/wp-content/themes/projeto/email-contato.php", /* endereço do phpmailer */
                      async: true,
                      data: urlData, /* informa Url */
 

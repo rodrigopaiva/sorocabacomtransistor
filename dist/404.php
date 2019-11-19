@@ -2,7 +2,7 @@
     /*
     Template Name: 404
     */
-     ?> <!doctype html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="pt-br"><!--<![endif]--><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="content-language" content="pt-br"><meta http-equiv="cache-control" content="no-cache"><title>Full Jump</title><style>html, body, div, span, applet, object, iframe,
+     ?> <!doctype html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="pt-br"><!--<![endif]--><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="content-language" content="pt-br"><meta http-equiv="cache-control" content="no-cache"><title>Sorocabacom - Transistor</title><style>html, body, div, span, applet, object, iframe,
             h1, h2, h3, h4, h5, h6, p, blockquote, pre,
             a, abbr, acronym, address, big, cite, code,
             del, dfn, em, img, ins, kbd, q, s, samp,
@@ -77,7 +77,7 @@
                 display: block;
                 margin: 0 auto;
                 margin-top: 100px;
-                /*background: url('http://www.fulljump.com.br/wp-content/themes/fulljump2017/images/404.png') center center no-repeat;*/
+                /*background: url('images/404.png') center center no-repeat;*/
                 display: -webkit-box;
                 display: -moz-box;
                 display: -webkit-flex;
@@ -121,4 +121,4 @@
                 color: #fff;
             }</style></head><body class="404-error"><!--[if lt IE 10]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]--><div class="all"><div class="content"><p>Ops! Não achamos o que você procura.</p></div><a href="<?php //echo get_option('home'); ?>">voltar ao site</a></div></body></html>
+        <![endif]--><div class="all"><div class="content"><p>Ops! Não achamos o que você procura.</p></div><a href="#">voltar ao site</a></div></body></html>
