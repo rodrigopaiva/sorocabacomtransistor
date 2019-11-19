@@ -34,8 +34,8 @@
             </section><!-- container-carrossel-personas -->
 
 
-            <section class="container-form-contato">
-                <div class="aux center">
+            <section class="container-form-contato relative">
+                <div class="aux center relative z-99">
                     <header>
                         <h2>formulário</h2>
                     </header>

@@ -1,14 +1,44 @@
-.button
-	sprite($zoom)
-	sprite_extras()
+// .button
+// 	sprite($zoom)
+// 	sprite_extras()
 
-.teste
-	background-image url($base_img + '/sprite.png')
-	@extend .sumir
-	@extend .block
-	width 50px
-	height 50px
-	transition 0.2s ease-out
-	&:hover
-		opacity 0.4
+// .teste
+// 	background-image url($base_img + '/sprite.png')
+// 	@extend .sumir
+// 	@extend .block
+// 	width 50px
+// 	height 50px
+// 	transition 0.2s ease-out
+// 	&:hover
+// 		opacity 0.4
 
+
+/* === FORMULARIO === */
+.container-carrossel-personas
+	background-color $eclipse
+
+
+
+/* === FORMULARIO === */
+.container-form-contato
+	background linear-gradient(143deg, $aquamarine 0%, $keppel 100%)
+
+	&:after,
+	&:before
+		width 100%
+		height 30px
+		background-color $eclipse
+		position absolute
+		content ""
+
+	&:before
+		top 0
+
+	&:after
+		bottom 0
+
+	.aux
+		background-color $white
+		width 56%
+		box-shadow 0px 0px 6px $black
+		border-radius 4px

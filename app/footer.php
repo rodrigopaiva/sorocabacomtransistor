@@ -1,7 +1,9 @@
 
-<footer class="ft-primary relative">
-	<span class="scroll-to-top absolute"></span>
-</footer><!-- ft-primary -->
+<footer class="footer-primary relative">
+	<span class="scroll-to-top absolute center-v-h">
+		<i></i>
+	</span>
+</footer><!-- footer-primary -->
 
 
 <?php include "_inc/analytics.php" ?>
