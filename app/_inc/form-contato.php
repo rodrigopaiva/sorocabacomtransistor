@@ -4,21 +4,19 @@
     */
 ?>
 
-<form class="form-contato limit-6w center" name="form-contato" method="post" enctype="multipart/form-data">
-    <label for="nome">Nome</label>
-    <input type="text" name="nome" value="" id="nome" class="validatxt nome" required />
+<form class="form-contato center" name="form-contato" method="post" enctype="multipart/form-data">
 
-    <label for="email">E-mail</label>
-    <input type="email" name="email" value="" id="email" class="validatxt email" required />
+    <input type="text" placeholder="Nome" name="nome" value="" id="nome" class="validatxt nome" required />
 
-    <label for="mensagem">Mensagem</label>
-    <textarea name="mensagem" id="mensagem" class="validatxt" required></textarea>
+    <input type="email" placeholder="E-mail" name="email" value="" id="email" class="validatxt email" required />
 
-    <button class="btn" name="enviar">enviar</button>
+    <textarea placeholder="Mensagem" name="mensagem" id="mensagem" class="validatxt" required></textarea>
+
+    <button class="btn btn-full-green" name="enviar">enviar</button>
 
     <div class="clear"></div>
 
-    <div class="error_invalido_contato none">
+    <div class="error-invalido-contato none">
         <p>Os campos acima em destaque são necessários</p>
     </div><!-- error_invalido -->
 
