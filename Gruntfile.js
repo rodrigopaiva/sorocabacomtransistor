@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 			js: {
 				files: {
 					'<%= assets.js %>/all.combined.js': [
-						'<%= src.vendor %>/jquery-1.11.0.min.js',
+						'<%= src.vendor %>/jquery.min.js',
 						'<%= src.vendor %>/jquery.easing.js',
 						'<%= src.js %>/plugins.js',
 						'<%= src.js %>/main.js'
