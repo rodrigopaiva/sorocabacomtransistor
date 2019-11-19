@@ -24,11 +24,19 @@
         <main>
             <?php include "header.php" ?>
 
-            <section>
-                <header>header</header>
-                <article>article</article>
-                <footer>footer</footer>
-            </section>
+            <section class="container-banner-destaque">
+                container-banner-destaque
+            </section><!-- container-banner-destaque -->
+
+
+            <section class="container-carrossel-personas">
+                container-carrossel-personas
+            </section><!-- container-carrossel-personas -->
+
+
+            <section class="container-form-contato">
+                container-form-contato
+            </section><!-- container-form-contato -->
 
             <?php include "footer.php" ?>
         </main>
