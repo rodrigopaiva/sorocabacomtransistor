@@ -1,6 +1,6 @@
 
 <footer class="ft-primary relative">
-    footer primary
+	<span class="scroll-to-top absolute"></span>
 </footer><!-- ft-primary -->
 
 
