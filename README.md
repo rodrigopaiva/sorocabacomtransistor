@@ -1,4 +1,4 @@
-# Template by Rubro Studio
+# Template by Rodrigo Felipe
 
 Esse projeto usa [NodeJS](http://nodejs.org/), [GruntJS](http://gruntjs.com/) e [Stylus](http://learnboost.github.io/stylus/).
 

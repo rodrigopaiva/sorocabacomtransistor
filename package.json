@@ -1,8 +1,8 @@
 {
   "name": "html",
   "version": "1.0.0",
-  "description": "Project by @rubrostudio",
-  "author": "Rubro Studio",
+  "description": "Project by Rodrigo Felipe",
+  "author": "Rodrigo Felipe",
   "license": "ISC",
   "devDependencies": {
     "grunt": "~0.4.2",

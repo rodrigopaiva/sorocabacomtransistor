@@ -15,7 +15,7 @@
         <meta http-equiv="content-language" content="pt-br" />
         <meta http-equiv="cache-control" content="no-cache" />
 
-        <title>Full Jump</title>
+        <title>Sorocabacom - Transistor</title>
 
         <!-- Styles -->
         <style>
@@ -94,7 +94,7 @@
                 display: block;
                 margin: 0 auto;
                 margin-top: 100px;
-                /*background: url('http://www.fulljump.com.br/wp-content/themes/fulljump2017/images/404.png') center center no-repeat;*/
+                /*background: url('images/404.png') center center no-repeat;*/
                 display: -webkit-box;
                 display: -moz-box;
                 display: -webkit-flex;
@@ -147,13 +147,13 @@
         <![endif]-->
 
         <div class="all">
-            <!-- <img src="http://www.fulljump.com.br/wp-content/themes/fulljump2017/images/marca-full-jump.png" /> -->
+            <!-- <img src="images/marca-full-jump.png" /> -->
 
             <div class="content">
                 <p>Ops! Não achamos o que você procura.</p>
             </div>
 
-            <a href="<?php //echo get_option('home'); ?>">voltar ao site</a>
+            <a href="#">voltar ao site</a>
         </div><!-- end all -->
     </body>
 </html>

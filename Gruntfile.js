@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 			},
             css: {
                 options: {
-                    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd h:MM:ss TT") %> - by @rubrostudio */\n'
+                    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd h:MM:ss TT") %> - by Rodrigo Felipe */\n'
                 },
                 files: {
                     '<%= assets.css %>/style.css': [
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 			js: {
                 options: {
                     mangle: false,
-                    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd h:MM:ss TT") %> - by @rubrostudio */\n'
+                    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd h:MM:ss TT") %> - by Rodrigo Felipe */\n'
                 },
 				files: {
 					'<%= assets.js %>/all.combined.js' : ['<%= assets.js %>/all.combined.js']

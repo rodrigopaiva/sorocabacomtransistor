@@ -4,7 +4,7 @@
         <meta http-equiv="content-language" content="pt-br" />
         <meta http-equiv="cache-control" content="no-cache" />
 
-        <title>Titulo do projeto</title>
+        <title>Sorocabacom - Transistor</title>
 
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -16,14 +16,14 @@
         <meta name="apple-touch-fullscreen" content="yes" />
         <meta name="HandheldFriendly" content="true" />
         <meta name="format-detection" content="telephone=yes" />
-        <meta name="DC.title" content="titulo do projeto" />
-        <meta name="DC.publisher" content="nome do desenvolvedor" />
-        <meta name="DC.creator.address" content="dev_name@gmail.com" />
+        <meta name="DC.title" content="Sorocabacom - Transistor" />
+        <meta name="DC.publisher" content="Rodrigo Felipe" />
+        <meta name="DC.creator.address" content="rodrigofpaiva@gmail.com" />
         <meta name="robots" content="Index" />
-        <meta name="author" content="nome do desenvolvedor" />
+        <meta name="author" content="Rodrigo Felipe" />
         <meta name="rating" content="general" />
         <meta name="distribution" content="global" />
-        <meta name="copyright" content="titulo do projeto - Todos os direitos reservados" />
+        <meta name="copyright" content="Sorocabacom Transistor - Todos os direitos reservados" />
 
         <!-- Team -->
         <link rel="author" type="text/plain" href="humans.txt" />

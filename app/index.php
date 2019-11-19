@@ -13,8 +13,6 @@
     <head>
         <?php include "_inc/headlines.php" ?>
 
-        <?php //wp_head(); ?>
-
         <?php include "_inc/styles-scripts.php" ?>
     </head>
 
@@ -24,7 +22,6 @@
         <![endif]-->
 
         <main>
-            <?php //get_header(); ?>
             <?php include "header.php" ?>
 
             <section>
@@ -33,8 +30,6 @@
                 <footer>footer</footer>
             </section>
 
-
-            <?php //get_footer(); ?>
             <?php include "footer.php" ?>
         </main>
 
