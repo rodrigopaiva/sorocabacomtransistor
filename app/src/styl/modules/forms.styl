@@ -1,0 +1,62 @@
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+input[type=number],
+input[type=file],
+input[type=tel],
+select, textarea
+	height 55px
+	line-height 16px
+	padding 13px 14px
+	border 0
+	background #444444
+	&:focus
+		outline none
+
+textarea
+	resize none
+	overflow auto
+	margin-bottom 30px
+	height 170px
+
+
+/* ======== FALE CONOSCO ======== */
+.form-contato
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	textarea
+		background-color #fff
+		border-radius 30px
+		border 1px solid #aaa
+		height 50px
+		line-height 18px
+		padding 13px 14px
+		text-transform uppercase
+		margin-bottom 30px
+		+placeholder()
+			font_mixin(arial, 1.4em, red)
+			text-transform uppercase
+		&:focus
+			outline none
+
+
+/* ======== ALERTAS ======== */
+.alert
+	display block
+	padding 14px
+	font-size 13px
+	border-radius 3px
+	margin-bottom 20px
+
+.alert-danger
+	@extend .alert
+	background #ffeded
+	color #c53b3b
+
+.message-fail
+	background #ce6565
+
+.message-success
+	background #41b88f
