@@ -1,1 +1,1 @@
-<header class="hd-primary relative">header primary <?php include "_inc/nav-mobile.php" ?> </header>
+<header class="header-primary relative"><h1><img src="images/brands/marca.png" alt="marca supergiantgames" title="marca supergiantgames"> supergiantgames</h1></header>

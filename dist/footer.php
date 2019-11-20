@@ -1,1 +1,1 @@
-<footer class="ft-primary relative">footer primary</footer> <?php include "_inc/analytics.php" ?>
+<footer class="footer-primary relative"><span class="scroll-to-top absolute center-v-h"><i class="fas fa-angle-up"></i></span></footer> <?php include "_inc/analytics.php" ?>
