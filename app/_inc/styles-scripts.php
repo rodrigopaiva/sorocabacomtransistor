@@ -6,3 +6,4 @@
 
         <!-- Scripts -->
         <script async src="assets/js/all.combined.js"></script>
+        <script src="https://kit.fontawesome.com/9093fba346.js" crossorigin="anonymous"></script>
