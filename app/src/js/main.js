@@ -8,6 +8,7 @@ $(document).ready(function() {
         });
 
 
+
     // altura banner destaque
         var alturaBanner = $(window).height();
         $('.container-banner-destaque').css('height', alturaBanner);
@@ -20,42 +21,14 @@ $(document).ready(function() {
 
 
 
-
-  // carousel bxSlider
-        /* slider banner */
-        if ($('.bxslider-banner').length > 0) {
-            $('.bxslider-banner').bxSlider({
-              mode: 'fade',
-              minSlides: 2,
-              auto: true,
-              autoHover: true
-            });
-
-            /*
-              auto: true,
-              autoControls: true,
-              stopAutoOnClick: true,
-              pager: true,
-              slideWidth: 300,
-              moveSlides: 2
-            */
-        }
-
-
-
-  // carousel bxSlider
-    /* verifica a existencia do objeto */
-      if ($('.list-carousel').length > 0) {
-        $('.list-carousel').bxSlider({
-          slideWidth: 210,
-          minSlides: 2,
-          maxSlides: 5,
-          moveSlides: 1,
-          slideMargin: 30
-         //  adaptiveHeight: true,
-           // mode: 'fade'
-      });
-      }
+  	// carousel
+        // if ($('.bxslider-banner').length > 0) {
+            $('.list-personas').slick({
+			  infinite: true,
+			  slidesToShow: 3,
+			  slidesToScroll: 1
+			});
+        // }
 
 
     // quando enviar o form de contato executa a funcao

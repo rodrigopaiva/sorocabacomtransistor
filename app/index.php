@@ -53,7 +53,16 @@
 
 
             <section class="container-carrossel-personas">
-                container-carrossel-personas
+                <div class="aux">
+                    <ul class="list-personas">
+                        <li>aaaa</li>
+                        <li>bbbbbbbbbbb</li>
+                        <li>cccccc</li>
+                        <li>ddddd</li>
+                        <li>eeeee</li>
+                        <li>fffff</li>
+                    </ul>
+                </div>
             </section><!-- container-carrossel-personas -->
 
 
