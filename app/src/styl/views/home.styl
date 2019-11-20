@@ -17,22 +17,83 @@
 			img
 				width 100%
 
-			.penagem-03
+			.penagem-01,
+			.penagem-02,
+			.penagem-03,
+			.penagem-04
 				sprite_extras()
-				sprite($penagem_03)
-				top 200px
-				right -50px
 				transition .5s ease-out
 
+			.penagem-01
+				sprite($penagem_01)
+				top 412px
+				left -20px
+
+			.penagem-02
+				sprite($penagem_02)
+				top 385px
+				right -112px
+
+			.penagem-03
+				sprite($penagem_03)
+				top 218px
+				right -60px
+
+			.penagem-04
+				sprite($penagem_04)
+				top 290px
+				left -80px
+
 			&:hover
+				.penagem-01
+					top 420px
+					left -30px
+
+				.penagem-02
+					top 395px
+					right -118px
+
 				.penagem-03
 					top 250px
 					right -80px
+
+				.penagem-04
+					top 310px
+					left -90px
 
 		p
 			font_mixin($sans, 300, 2em, $white)
 			@extend .center
 			margin-top 28px
+
+		.mouse
+			width 28px
+			height 65px
+			left 50%
+			bottom -35px
+			margin-left -14px
+			text-align center
+
+			span
+				width 28px
+				height 48px
+				background-color $white
+				border-radius 124px
+				display block
+
+				i
+					width 2px
+					height 6px
+					background-color $black
+					display block
+					left 50%
+					margin-left -1px
+					top 8px
+
+			& > i
+				font-size 1.8em
+				color $white
+
 
 
 

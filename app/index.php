@@ -31,12 +31,23 @@
                     <figure class="relative">
                         <img src="images/banner-destaque/banner-destaque-persona.png" alt="" />
 
+                        <div class="penagem-01 absolute"></div>
+                        <div class="penagem-02 absolute"></div>
                         <div class="penagem-03 absolute"></div>
+                        <div class="penagem-04 absolute"></div>
                     </figure>
 
                     <p class="w-50">
                         "Olha, o que quer que você esteja pensando, me faça um favor, não solte."
                     </p>
+
+                    <div class="mouse absolute">
+                        <span class="relative">
+                            <i class="absolute"></i>
+                        </span>
+
+                        <i class="fas fa-angle-down"></i>
+                    </div>
                 </div><!-- box -->
             </section><!-- container-banner-destaque -->
 
