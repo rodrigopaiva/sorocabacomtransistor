@@ -9,12 +9,12 @@ $(document).ready(function() {
 
 
     // altura banner destaque
-        var alturaBanner = $(window).height() - 110;
+        var alturaBanner = $(window).height();
         $('.container-banner-destaque').css('height', alturaBanner);
 
         // resize tela
             $( window ).resize(function() {
-                var alturaBanner = $(window).height() - 110;
+                var alturaBanner = $(window).height();
         		$('.container-banner-destaque').css('height', alturaBanner);
             });
 

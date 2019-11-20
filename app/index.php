@@ -25,7 +25,19 @@
             <?php include "header.php" ?>
 
             <section class="container-banner-destaque bg-img-full">
-                container-banner-destaque
+                <div class="box relative center w-30">
+                    <h3>transistor - red the singer</h3>
+
+                    <figure class="relative">
+                        <img src="images/banner-destaque/banner-destaque-persona.png" alt="" />
+
+                        <div class="penagem-03 absolute"></div>
+                    </figure>
+
+                    <p class="w-50">
+                        "Olha, o que quer que você esteja pensando, me faça um favor, não solte."
+                    </p>
+                </div><!-- box -->
             </section><!-- container-banner-destaque -->
 
 

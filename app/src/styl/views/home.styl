@@ -3,6 +3,37 @@
 .container-banner-destaque
 	background-image url($base_img + '/banner-destaque-cenario.png')
 
+	.box
+		background url($base_img + '/banner-destaque-pattern.png') center repeat
+		height 100%
+		padding 12px 30px
+
+		h3
+			font_mixin($sans, 700, 1.5em, $white)
+			text-transform uppercase
+			margin-bottom 22px
+
+		figure
+			img
+				width 100%
+
+			.penagem-03
+				sprite_extras()
+				sprite($penagem_03)
+				top 200px
+				right -50px
+				transition .5s ease-out
+
+			&:hover
+				.penagem-03
+					top 250px
+					right -80px
+
+		p
+			font_mixin($sans, 300, 2em, $white)
+			@extend .center
+			margin-top 28px
+
 
 
 /* === CARROSSEL PERSONAS === */
