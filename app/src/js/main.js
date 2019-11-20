@@ -1,41 +1,24 @@
 
-// Mascaras
-    var maskBehavior = function (val) {
-      return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
-    },
-    options = {onKeyPress: function(val, e, field, options) {
-            field.mask(maskBehavior.apply({}, arguments), options);
-        }
-    };
-
-    $('.ipt-fone').mask(maskBehavior, options);
-    $('.ipt-cpf').mask('000.000.000-00', {reverse: true});
-    $('.ipt-cep').mask('00000-000');
-
-
-// for menu mobile
-    function animaMenu(x) {
-        x.classList.toggle('change');
-    }
-
-
 $(document).ready(function() {
 
-    // link externo
-    $('.external').on('click',function (e){
+    // scroll to top
+        $('.scroll-to-top').on('click',function (e){
             e.preventDefault();
-            var url = $(this).attr('href');
-            window.open(url);
+            $("html, body").animate({ scrollTop: 0 }, "slow");
         });
 
 
-    // show / hide menu mobile
-        $('.bt-menu-mobile').click(function() {
-            animaMenu(this);
+    // altura banner destaque
+        var alturaBanner = $(window).height() - 110;
+        $('.container-banner-destaque').css('height', alturaBanner);
 
-            $('.content-menu-mobile, .nav-mobile span').toggle('slow');
-            $('.overlay-login').toggle('fast');
-        });
+        // resize tela
+            $( window ).resize(function() {
+                var alturaBanner = $(window).height() - 110;
+        		$('.container-banner-destaque').css('height', alturaBanner);
+            });
+
+
 
 
   // carousel bxSlider
@@ -86,7 +69,7 @@ $(document).ready(function() {
                 if ($(this).hasClass('validatxt')) {
                     if (thisVal == "") {
                         $(this).addClass('error');
-                        $('.error_invalido_contato').fadeIn();
+                        $('.error-invalido-contato').fadeIn();
                     }else{
                         $(this).removeClass('error');
                     }
@@ -122,7 +105,7 @@ $(document).ready(function() {
 
 
             if (errors == "0"){
-                $('.error_invalido_contato').fadeOut();
+                $('.error-invalido-contato').fadeOut();
                 $('.box-success-contato').show('fast');
 
 
@@ -149,7 +132,7 @@ $(document).ready(function() {
 
                 event.preventDefault();
             }else{
-                $('.error_invalido_contato').fadeIn();
+                $('.error-invalido-contato').fadeIn();
                 $('.box-success-contato').hide('fast');
                 event.preventDefault();
             }

@@ -38,11 +38,10 @@ textarea
 
 /* ======== ALERTAS ======== */
 .alert
-	display block
 	padding 14px
-	font-size 13px
-	border-radius 3px
-	margin-bottom 20px
+	font-size 1.2em
+	margin-top 12px
+	text-align center
 
 .alert-danger
 	@extend .alert
@@ -50,7 +49,12 @@ textarea
 	color #c53b3b
 
 .message-fail
+	@extend .alert
 	background #ce6565
 
 .message-success
+	@extend .alert
 	background #41b88f
+
+.error
+	border 1px solid red !important

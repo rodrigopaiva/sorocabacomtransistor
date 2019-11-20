@@ -16,12 +16,12 @@
 
     <div class="clear"></div>
 
-    <div class="error-invalido-contato none">
+    <div class="error-invalido-contato message-fail none">
         <p>Os campos acima em destaque são necessários</p>
     </div><!-- error_invalido -->
 
     <img src="images/loading.gif" width="32" height="32" class="loading none" />
 
     <!-- conteudo gerado via sendcontato php -->
-    <div class="box-success-contato none"></div><!-- box-success -->
+    <div class="box-success-contato message-success none"></div><!-- box-success -->
 </form>

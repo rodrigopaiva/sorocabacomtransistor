@@ -24,7 +24,7 @@
         <main>
             <?php include "header.php" ?>
 
-            <section class="container-banner-destaque">
+            <section class="container-banner-destaque bg-img-full">
                 container-banner-destaque
             </section><!-- container-banner-destaque -->
 

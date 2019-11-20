@@ -1,7 +1,14 @@
 
+/* === BANNER DESTAQUE === */
+.container-banner-destaque
+	background-image url($base_img + '/banner-destaque-cenario.png')
+
+
+
 /* === CARROSSEL PERSONAS === */
 .container-carrossel-personas
 	background-color $eclipse
+	padding 110px 0 200px 0
 
 
 
@@ -38,7 +45,7 @@
 				font_mixin($mserrat, 700, 3.5em, $aquamarine-medium)
 				text-transform uppercase
 
-		p
+		& > p
 			font_mixin($sans, 300, 2em, $eclipse)
 			text-align left
 			@extend .center
