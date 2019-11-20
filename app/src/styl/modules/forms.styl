@@ -6,40 +6,34 @@ input[type=number],
 input[type=file],
 input[type=tel],
 select, textarea
-	height 55px
+	height 48px
 	line-height 16px
 	padding 13px 14px
 	border 0
-	background #444444
+	background-color $white
+	margin-bottom 40px
 	&:focus
 		outline none
 
 textarea
 	resize none
 	overflow auto
-	margin-bottom 30px
-	height 170px
+	height 200px
 
 
 /* ======== FALE CONOSCO ======== */
 .form-contato
 	input[type=text],
 	input[type=email],
-	input[type=tel],
 	textarea
-		background-color #fff
-		border-radius 30px
-		border 1px solid #aaa
-		height 50px
-		line-height 18px
-		padding 13px 14px
-		text-transform uppercase
-		margin-bottom 30px
+		border 1px solid $eclipse
 		+placeholder()
 			font_mixin($sans, 300, 1.4em, $black)
-			text-transform uppercase
 		&:focus
 			outline none
+
+	textarea
+		width 100%
 
 
 /* ======== ALERTAS ======== */

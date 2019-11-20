@@ -31,7 +31,29 @@
 
 		header
 			text-align center
+			padding-top 80px
+			padding-bottom 40px
 
 			h2
 				font_mixin($mserrat, 700, 3.5em, $aquamarine-medium)
 				text-transform uppercase
+
+		p
+			font_mixin($sans, 300, 2em, $eclipse)
+			text-align left
+			@extend .center
+			width 68%
+
+		form
+			width 48%
+			margin-top 50px
+			margin-bottom 155px
+
+			input
+				width 48%
+
+			input[type=text]
+				float left
+
+			input[type=email]
+				float right
