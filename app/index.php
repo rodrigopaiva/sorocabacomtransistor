@@ -53,14 +53,68 @@
 
 
             <section class="container-carrossel-personas">
-                <div class="aux">
+                <div class="aux center w-75">
                     <ul class="list-personas">
-                        <li>aaaa</li>
-                        <li>bbbbbbbbbbb</li>
-                        <li>cccccc</li>
-                        <li>ddddd</li>
-                        <li>eeeee</li>
-                        <li>fffff</li>
+                        <li>
+                            <figure>
+                                <img src="images/personas/grant.png" alt="" />
+                            </figure>
+
+                            <p>A Camerata foi apenas os dois no início, e suas fileiras nunca foram destinadas a exceder um número a ser contado em uma mão.</p>
+
+                            <div class="bg-figure"></div>
+                            <div class="bg"></div>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/personas/red.png" alt="" />
+                            </figure>
+
+                            <p>Red, uma jovem cantora, entrou em posse do Transistor. Sendo a poderosa espada falante. O grupo Possessores quer tanto ela quanto o Transistor e está perseguindo implacavelmente a sua procura.</p>
+
+                            <div class="bg-figure"></div>
+                            <div class="bg"></div>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/personas/sybil.png" alt="" />
+                            </figure>
+
+                            <p>Sybil é descrita pelo Transistor como sendo os "olhos e ouvidos" da Camerata.</p>
+
+                            <div class="bg-figure"></div>
+                            <div class="bg"></div>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/personas/red.png" alt="" />
+                            </figure>
+
+                            <p>Red, uma jovem cantora, entrou em posse do Transistor. Sendo a poderosa espada falante. O grupo Possessores quer tanto ela quanto o Transistor e está perseguindo implacavelmente a sua procura.</p>
+
+                            <div class="bg-figure"></div>
+                            <div class="bg"></div>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/personas/grant.png" alt="" />
+                            </figure>
+
+                            <p>A Camerata foi apenas os dois no início, e suas fileiras nunca foram destinadas a exceder um número a ser contado em uma mão.</p>
+
+                            <div class="bg-figure"></div>
+                            <div class="bg"></div>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/personas/sybil.png" alt="" />
+                            </figure>
+
+                            <p>Sybil é descrita pelo Transistor como sendo os "olhos e ouvidos" da Camerata.</p>
+
+                            <div class="bg-figure"></div>
+                            <div class="bg"></div>
+                        </li>
                     </ul>
                 </div>
             </section><!-- container-carrossel-personas -->
