@@ -1,6 +1,29 @@
 
 $(document).ready(function() {
 
+	// add class de acordo com a largura da view
+        var current_width = $(window).width();
+
+        if(current_width < 481) {
+
+            $('html').addClass("smartphone").removeClass("desktop").removeClass("tablet");
+
+        } else if(current_width < 739) {
+
+            $('html').addClass("smartphone").removeClass("desktop").removeClass("tablet");
+
+        } else if (current_width < 970) {
+
+            $('html').addClass("tablet").removeClass("desktop").removeClass("smartphone");
+
+        } else if (current_width > 971) {
+
+            $('html').addClass("desktop").removeClass("smartphone").removeClass("tablet");
+
+        }
+
+
+
     // scroll to top
         $('.scroll-to-top').on('click',function (e){
             e.preventDefault();
@@ -22,13 +45,23 @@ $(document).ready(function() {
 
 
   	// carousel
-        // if ($('.bxslider-banner').length > 0) {
+  		// se for desktop ou tablet exibe 03 itens no carrossel
+        if ($('.desktop').length > 0 || $('.tablet').length > 0) {
             $('.list-personas').slick({
 			  infinite: true,
 			  slidesToShow: 3,
 			  slidesToScroll: 1
 			});
-        // }
+        }
+
+        // se for smartphone exibe 01 item no carrossel
+        if ($('.smartphone').length > 0) {
+        	$('.list-personas').slick({
+			  infinite: true,
+			  slidesToShow: 1,
+			  slidesToScroll: 1
+			});
+        }
 
 
     // quando enviar o form de contato executa a funcao
