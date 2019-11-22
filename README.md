@@ -2,6 +2,17 @@
 
 Esse projeto usa [NodeJS](http://nodejs.org/), [GruntJS](http://gruntjs.com/) e [Stylus](http://learnboost.github.io/stylus/).
 
+Sobre o template
+----------
+
+Pasta [app] é o ambiente de desenvolvimento. Já a pasta [dist] é o ambiente de deploy, com os códigos minificados e images otimizadas.
+
+
+Demo on-line
+----------
+
+
+
 Configurando ambiente
 ----------
 
